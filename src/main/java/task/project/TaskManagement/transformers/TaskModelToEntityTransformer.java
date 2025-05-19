@@ -18,6 +18,7 @@ public class TaskModelToEntityTransformer implements Function<TaskModel ,TaskEnt
 				.id(task.getId())
 				.description(task.getDescription())
 				.date(task.getDate())
+				.status(task.getStatus())
 				.build();
 	}
 
