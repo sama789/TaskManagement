@@ -1,8 +1,10 @@
 package task.project.TaskManagement.model;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,4 +24,5 @@ public class TaskModel {
     private String description;
     private LocalDate date;
     private TaskStatus status;
+    private List<PersonModel> persons;
 }

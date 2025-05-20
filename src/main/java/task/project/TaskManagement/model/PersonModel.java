@@ -1,6 +1,7 @@
 package task.project.TaskManagement.model;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
@@ -21,5 +22,7 @@ public class PersonModel {
 	    private String surname;
 	    private String email;
 	    private LocalDate birthday;
+	    private List<TaskModel> tasks;
+
 
 }
